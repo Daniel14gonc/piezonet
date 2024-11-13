@@ -29,13 +29,14 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
 ---
 
 ### 3. **Piezoelectricity**
-   - **Notebook 1**: [Direct_effect_PINN.ipynb](./Piezoelectricity/Direct_effect_PINN.ipynb)  
-     **Descripción**:  
-     Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
-   
-   - **Notebook 2**: [Indirect_effect_PINN.ipynb](./Piezoelectricity/Indirect_effect_PINN.ipynb)  
+
+   - **Notebook 1**: [Indirect_effect_PINN.ipynb](./Piezoelectricity/Indirect_effect_PINN.ipynb)  
      **Descripción**:  
      Este notebook aborda el **efecto piezoeléctrico indirecto**, donde una estimulación eléctrica en un material genera una deformación mecánica. Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
+
+   - **Notebook 2**: [Direct_effect_PINN.ipynb](./Piezoelectricity/Direct_effect_PINN.ipynb)  
+     **Descripción**:  
+     Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
 
     - **Entorno de ejecución (para ambos notebooks se utilizó el mismo)**:
         - Google Colab: GPU Tesla T4.

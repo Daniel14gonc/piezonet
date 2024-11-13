@@ -11,7 +11,7 @@ Este es el código creado para el proyecto de graduación de la carrera de licen
 El proyecto está organizado en carpetas según los fenómenos modelados:
 
 ### 1. **Heat**
-   - **Notebook**: `heat_PINN.ipynb`  
+   - **Notebook**: [heat_PINN.ipynb](./Heat/heat_PINN.ipynb)  
      **Descripción**:  
      Este notebook implementa un modelo para resolver problemas de **transferencia de calor**. Utiliza PINNs para simular la ecuación del calor en un una varilla de una dimensión.
      **Entorno de ejecución**:
@@ -20,7 +20,7 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
 ---
 
 ### 2. **Navier-Stokes**
-   - **Notebook**: `NS_PINN_geo.ipynb`  
+   - **Notebook**: [NS_PINN_geo.ipynb](./Navier-Stokes/NS_PINN_geo.ipynb)  
      **Descripción**:  
      Aquí se modelan problemas relacionados con la **dinámica de fluidos** a través de las ecuaciones de Navier-Stokes. Este notebook está diseñado para demostrar cómo las PINNs pueden abordar la simulación de un flujo en un conducto que tiene un cilindro en medio. El análisis está hecho en estado estacionario.
     **Entorno de ejecución**:
@@ -29,15 +29,15 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
 ---
 
 ### 3. **Piezoelectricity**
-   - **Notebook 1**: `Direct_effect_PINN.ipynb`  
+   - **Notebook 1**: [Direct_effect_PINN.ipynb](./Piezoelectricity/Direct_effect_PINN.ipynb)  
      **Descripción**:  
      Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
    
-   - **Notebook 2**: `Indirect_effect_PINN.ipynb`  
+   - **Notebook 2**: [Indirect_effect_PINN.ipynb](./Piezoelectricity/Indirect_effect_PINN.ipynb)  
      **Descripción**:  
      Este notebook aborda el **efecto piezoeléctrico indirecto**, donde una estimulación eléctrica en un material genera una deformación mecánica. Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
 
-    Para ambos modelos se usó el siguiente entorno de ejecución:
+    - **Entorno de ejecución (para ambos notebooks se utilizó el mismo)**:
         - Google Colab: GPU Tesla T4.
         - Memoria RAM: 15 GB.
 

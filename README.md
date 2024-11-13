@@ -30,20 +30,22 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
 
 ### 3. **Piezoelectricity**
 
-   - **Notebook 1**: [Indirect_effect_PINN.ipynb](./Piezoelectricity/Indirect_effect_PINN.ipynb)  
-     **Descripción**:  
-     Este notebook aborda el **efecto piezoeléctrico indirecto**, donde una estimulación eléctrica en un material genera una deformación mecánica. Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
-
-   - **Notebook 2**: [Direct_effect_PINN.ipynb](./Piezoelectricity/Direct_effect_PINN.ipynb)  
-     **Descripción**:  
-     Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
-
-   - **Notebook 3**: [Geometric_creation.ipynb](./Piezoelectricity/Geometric_creation.ipynb)  
+   - **Notebook 1**: [Geometric_creation.ipynb](./Piezoelectricity/Geometric_creation.ipynb)  
      **Descripción**:  
      Este notebook genera los puntos de colocación y de frontera para una **viga en voladizo** que se modela bajo el efecto piezoeléctrico. Proporciona la base geométrica para los otros notebooks relacionados con el efecto piezoeléctrico.  
      **Entorno de ejecución**:
         - Google Colab (sin GPU Tesla T4).
         - Memoria RAM: 15 GB.
+
+   - **Notebook 2**: [Indirect_effect_PINN.ipynb](./Piezoelectricity/Indirect_effect_PINN.ipynb)  
+     **Descripción**:  
+     Este notebook aborda el **efecto piezoeléctrico indirecto**, donde una estimulación eléctrica en un material genera una deformación mecánica. Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
+
+   - **Notebook 3**: [Direct_effect_PINN.ipynb](./Piezoelectricity/Direct_effect_PINN.ipynb)  
+     **Descripción**:  
+     Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
+
+   
 
   - **Entorno de ejecución (para los notebooks de Direct y Indirect effect)**:
     - **Plataforma**: Google Colab (con GPU Tesla T4).

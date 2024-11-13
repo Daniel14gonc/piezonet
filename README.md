@@ -45,9 +45,9 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
         - Google Colab (sin GPU Tesla T4).
         - Memoria RAM: 15 GB.
 
-    - **Entorno de ejecución (para los notebooks de Direct y Indirect effect)**:
-        - Google Colab: GPU Tesla T4.
-        - Memoria RAM: 15 GB.
+  - **Entorno de ejecución (para los notebooks de Direct y Indirect effect)**:
+    - **Plataforma**: Google Colab (con GPU Tesla T4).
+    - **Memoria RAM**: 15 GB.
 
 ---
 

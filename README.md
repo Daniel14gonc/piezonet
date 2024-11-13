@@ -38,7 +38,14 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
      **Descripción**:  
      Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
 
-    - **Entorno de ejecución (para ambos notebooks se utilizó el mismo)**:
+   - **Notebook 3**: [Geometric_creation.ipynb](./Piezoelectricity/Geometric_creation.ipynb)  
+     **Descripción**:  
+     Este notebook genera los puntos de colocación y de frontera para una **viga en voladizo** que se modela bajo el efecto piezoeléctrico. Proporciona la base geométrica para los otros notebooks relacionados con el efecto piezoeléctrico.  
+     **Entorno de ejecución**:
+        - Google Colab (sin GPU Tesla T4).
+        - Memoria RAM: 15 GB.
+
+    - **Entorno de ejecución (para los notebooks de Direct y Indirect effect)**:
         - Google Colab: GPU Tesla T4.
         - Memoria RAM: 15 GB.
 
@@ -46,4 +53,4 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
 
 ## Con respecto al uso
 
-El notebook de la ecuación de calor puede ser descargado y ejecutado sin ningúna configuración necesaria. Solamente, es necesario revisar si se cuenta con las librerías necesarias para ejecutarlo. Para los otros tres notebooks, es necesario realizar modificaciones para que puedan ser ejecutados en un entorno local o en un entorno de Google Colab.
+El notebook de la ecuación de calor puede ser descargado y ejecutado sin ninguna configuración necesaria. Solamente, es necesario revisar si se cuenta con las librerías necesarias para ejecutarlo. Para los otros notebooks, es necesario realizar modificaciones para que puedan ser ejecutados en un entorno local o en un entorno de Google Colab.

@@ -38,7 +38,7 @@ El proyecto está organizado en carpetas según los fenómenos modelados:
      **Descripción**:  
      Este notebook se enfoca en modelar el **efecto piezoeléctrico directo**, en el cual las deformaciones mecánicas en un material generan una respuesta eléctrica (voltaje). Está enfocado en modelar una viga en voladizo piezoeléctrica en 2D.
 
-    **Entorno de ejecución (para ambos notebooks se utilizó el mismo)**:
+    - **Entorno de ejecución (para ambos notebooks se utilizó el mismo)**:
         - Google Colab: GPU Tesla T4.
         - Memoria RAM: 15 GB.
 
